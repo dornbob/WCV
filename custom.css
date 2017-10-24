@@ -1,0 +1,273 @@
+body {
+	background-image:url('../images/bear.jpg');
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.vellum {
+	background-color:rgba(255, 255, 255, .8);
+	padding:50px;
+	padding-top:10px;
+	margin-bottom:50px;
+	min-height:723px;
+}
+.card {
+	background-color:white;
+	margin:0;
+}
+.pageheading {
+	margin-bottom:30px;
+}
+
+/*Font styles*/
+h1, h2, h3{
+font-family: 'Caveat Brush', cursive;
+font-size: 2.5em;
+}
+
+h1 {
+	font-size:2.5em;
+}
+h2 {
+	font-size:2em;
+}
+h3 {
+	font-size:1.5em;
+}
+
+h4, p{
+font-family: 'Arimo', sans-serif;
+}
+
+/*Styles for the icons on the homepage*/
+.caption {
+    text-align:center;
+    font-size:1.5em;
+}
+.thumbnail {
+    border:none;
+    text-align:center;
+    background-color: #9ABF8B;
+}
+.homeicon{
+    font-size:7em;
+    color:#ffffff;
+}
+.green {
+	color:#3a8787;
+}
+
+/*Link styles*/
+a {
+	color:#000000;
+}
+a:hover {
+	text-decoration:none;
+	color:black;
+}
+
+/*Styles for the search volunteers page*/
+.sidebar {
+	/*Just to remind myself I made this class*/
+}
+.badge {
+	margin-left:5px;
+	background-color:#3a8787;
+}
+.checkbox {
+	margin-left:5px;
+}
+.panel {
+	padding:10px;
+	padding-bottom:20px;
+	margin-top:20px;
+	border-radius:10px;
+	border-left:30px solid #3a8787;
+	margin-bottom:0;
+	background-color:#9ABF8B;
+	box-shadow:none;
+}
+.panel h3, .panel h1 {
+	margin:0;
+	line-height:1.2;
+}
+.panel h1 {
+	font-size:2em;
+}
+.panel h3 {
+	font-size:1.5em;
+}
+
+/*Styles for the profile page*/
+.profpic h1 {
+	margin-top:0;
+}
+.infoblock {
+	margin-left:20px;
+	border-left:10px solid #09476b;
+}
+.infoblock p {
+	margin-left:8px;
+}
+
+/*Styling for the application pages*/
+textarea {
+	width:50%;
+}
+.apply-main {
+	width:50%;
+}
+.name {
+	width:75%;
+}
+
+/*For the purposes of showing and hiding the application types*/
+#animal_care, #outreach, #transport, #veterinary, #submit_application {
+	display:none;
+}
+
+.h1{
+margin: 40px;
+margin-left: 0px;
+}
+
+/*Button styles*/
+.btn{
+margin-bottom: 50px;
+}
+.btn-default {
+background-color: #9ABF8B;
+border-color: none;
+margin-top: 70px;
+}
+.login-button{
+margin-top: 50px;
+}
+.btn-link{
+position:absolute;
+right:0;
+background-color: none;
+border-color: none;
+border-radius: 5px;
+margin-bottom:25px;
+martin-right:10px;
+color:white;
+}
+
+form-control{
+height: 50px;
+}
+
+btn btn-default{
+width: 80px;
+}
+
+.save{
+	position:absolute;
+	right:0;
+	background-color: none;
+	border-color: none;
+	border-radius: 5px;
+	margin-bottom:25px;
+	martin-right:10px;
+	color:white;
+}
+
+button, input, optgroup, select, textarea{
+color: black;
+}
+
+.container {
+	margin:0;
+	margin-right:0;
+	width:100%;
+}
+
+/*Footer styles*/
+footer {
+width:100%;
+margin:auto;
+height:150px;
+text-align:center;
+background-color: #09476b;
+padding-top:70px;
+color:white;
+}
+
+
+/*Other*/
+input[type=text].textbox,
+input[type=text].textbox:hover,
+input[type=text].textbox:focus,
+input[type=text].textbox:active
+{
+	border: 0;
+	outline: none;
+	outline-offset: 0;
+}
+
+
+input[type=text].header,
+input[type=text].header:hover,
+input[type=text].header:focus,
+input[type=text].header:active
+{
+	border: 0;
+	outline: none;
+	outline-offset: 0;
+	width: 120px;
+	resize: none;
+}
+
+.cboName
+{
+	border: 0;
+	outline: none;
+	outline-offset: 0;
+	width: 120px;
+	resize: none;
+}
+
+input[type=text].noBoarder,
+input[type=text].noBoarder:hover,
+input[type=text].noBoarder:focus,
+input[type=text].noBoarder:active
+{
+	width: 120px;
+	resize: none;
+}
+
+/*Profile Tabs and collapsable panels*/
+.team {
+	margin-bottom:15px;
+}
+.panel-heading {
+	background-color:#3a8787;
+	color:white;
+}
+.panel-heading:hover, .panel-heading:active {
+	background-color:#9abf8b;
+	color:black;	
+}
+.panel-heading a:visited, .panel-heading a:focus {
+	text-decoration:none;
+}
+.panel-collapse {
+	background-color:white;
+}
+
+/*iframes*/
+iframe {
+	border:none;
+	width:80%;
+}
+
+/*Media queries !!Must go at the bottom!!*/
+@media screen and (max-width:480px) {
+	footer {
+		padding:10px;
+	}
+	textarea {
+		width:100%;
+	}
+}

@@ -1,0 +1,708 @@
+body {
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-color:#e8e8e8;
+	min-width:333px;
+}
+
+.loginimage{
+		background-image:url('../images/BlackBear.jpg')
+}
+.passwordpage {
+	background-color:white;
+}
+.banner {
+	height:200px;
+}
+.logo-text {
+	font-family:'Caveat Brush', sans-serif;
+	font-size:2.5em;
+}
+.logo-row {
+	text-align:center;
+	margin-bottom:25px;
+}
+/*.white-background {
+	background-color:#09476b;
+}*/
+/*Different style for forgot password page*/
+.vellum {
+	background-color: tan;
+	background-color:rgba(255, 255, 255, .85);
+	padding:50px;
+	padding-top:10px;
+	margin-bottom:50px;
+	min-height:723px;
+}
+.card {
+	background-color:white;
+	margin:0;
+}
+.pageheading {
+	margin-bottom:30px;
+}
+
+/*Font styles*/
+h1 {
+font-family: 'Candara', sans-serif;
+font-size: 2.5em;
+}
+h3 {
+	font-family: 'Candara', sans-serif;
+	font-size:1.8em;
+}
+
+h4, p{
+font-family: 'Arimo', sans-serif;
+}
+
+/*Navbar Styles*/
+nav {
+	min-height:100px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#dedede;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color:black;
+	color:#dedede;
+}
+.logo {
+	display:inline;
+	width:100px;
+	float:left;
+}
+.logo-big {
+	width:40%;
+	margin:auto;
+}
+.header-text {
+	display:inline;
+	color:white;
+	font-family:'Caveat Brush', sans-serif;
+	line-height:2em;
+	margin-left:-90px;
+}
+.container-fluid {
+	text-align:center;
+}
+.new-nav {
+	text-align:center;
+}
+
+
+#userview h1, #adminview h1, #userview p, #adminview p {
+	text-align:center;
+}
+
+/*Styles for the homepage*/
+.caption {
+    text-align:center;
+    font-size:1.25em;
+	display:block;
+}
+.caption p {
+	width:auto;
+	color:black;
+	font-family:'Candara', sans-serif;
+}
+.thumbnail {
+    border:none;
+    text-align:center;
+    /*background-color: #9ABF8B;*/
+	/*width:90%;*/
+	margin:auto;
+	margin-bottom:1%;
+	/*margin-left:5%;*/
+	padding-top:2%;
+	display:inline-block;
+	
+	max-width:15%;
+	padding-top:0;
+	position:relative;
+	background-color:transparent;
+}
+.thumbnail img {
+filter: none;
+-webkit-filter: grayscale(0);
+}
+
+.thumbnail img:hover {
+filter: gray; /* For IE6-9 */
+filter: grayscale(1); /* For Microsoft Edge and Firefox 35+ */
+-webkit-filter: grayscale(1); /* For Google Chrome, Safari 6+ & Opera 15+ */
+}
+.thumbnail .glyphicon {
+	font-size:500%;
+	z-index:1;
+	position:absolute;
+	top:30%;
+	left:35%;
+}
+
+.homeicon{
+    font-size:7em;
+    color:#ffffff;
+}
+.green {
+	color:#3a8787;
+}
+.col-sm-7.home-info {
+	text-align:left;
+}
+i.fa.fa-paw {
+	color:white;
+	font-size:500%;
+	position:absolute;
+	top:30%;
+	left:35%;
+}
+
+/*Thumbnail hover*/
+/*.thumbnail:hover {
+	transform:scale(1.05);
+	box-shadow:3px 3px 3px #888888;
+}*/
+
+/*Link styles*/
+a {
+	color:#000000;
+}
+a:hover {
+	text-decoration:none;
+	color:black;
+}
+
+/*Sidebar styles*/
+.sidebar {
+	padding-left:5%;
+	padding-right:5%;
+}
+
+/*Styles for the search volunteers page*/
+.badge {
+	margin-left:5px;
+	background-color:#3a8787;
+}
+.checkbox {
+	margin-left:5px;
+}
+.panel {
+	padding:10px;
+	padding-bottom:20px;
+	margin-top:20px;
+	/*border-radius:10px;*/
+	/*border-left:30px solid #3a8787;*/
+	border-left:5px solid #09476b;
+	margin-bottom:0;
+	/*background-color:#9ABF8B;*/
+	background-color:#e8e8e8;
+	box-shadow:none;
+}
+.panel img.profpic {
+	border:1px solid #09476b;
+}
+.panel h3, .panel h1 {
+	margin:0;
+	line-height:1.2;
+	color:#09476b;
+}
+.panel h1 {
+	font-size:2em;
+}
+.panel h3 {
+	font-size:1.5em;
+}
+
+/*Styles for the profile page*/
+.profpic {
+	/*This is the class of the row with the profile picture and the info that's not in tabs*/
+	background-color:white;
+	padding:2%;
+}
+.profpic h1 {
+	margin-top:0;
+}
+.infoblock {
+	background-color:#88acc2;
+	border-left:5px solid #09476b;
+	padding:10px;
+}
+.infoblock p {
+	margin-left:8px;
+}
+.profpicture {
+	border:2px solid #09476b;
+	border-radius:10px;
+}
+
+/*Tab styles on profile page*/
+.tab {
+	background-color:#e8e8e8;
+	border:1px solid black;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	padding:8px;
+}
+.btn.tab {
+	margin-bottom:0px;
+}
+.active {
+	
+}
+.nav-tabs {
+	border:none;
+}
+.btn:focus, .btn.active:focus {
+	outline:none;
+}
+#tab_stuff {
+	background-color:white;
+	border:1px solid black;
+	padding:15px;
+	min-height: 500px;
+}
+
+.grey {
+	background-color:#666666;
+}
+
+/*Styling for the application pages*/
+textarea {
+	width:100%;
+}
+.appblock {
+	border-bottom:2px solid #09476b;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+.personalapp {
+	margin-right:100px;
+}
+
+/*For the purposes of showing and hiding the application types*/
+#animal_care, #outreach, #transport, #veterinary, #submit_application {
+	display:none;
+}
+
+.h1{
+margin: 40px;
+margin-left: 0px;
+}
+
+/*Button styles*/
+/*.btn{
+margin-bottom: 50px;
+}*/
+.btn-default {
+background-color: #9ABF8B;
+border-color: none;
+margin-top: 50px;
+}
+.btn-default:hover {
+	background-color:#9abf8b;
+}
+.btn-clock {
+	background-color: #9ABF8B;
+	border-color: none;
+	margin-top: 10px;
+}
+.btn-blue {
+	background-color: #09476b;
+	color: white;
+	border-color: none;
+	margin-top: 10px;
+}
+.btn-blue:hover {
+	transform:scale(1.05);
+	box-shadow:1px 1px 1px #888888;
+	color:white;
+}
+.btn-blue:visited, .btn-blue:focus {
+	color:white;
+	outline:0;
+}
+.btn-green {
+	background-color:#9abf8b;
+	margin-top:5px;
+}
+.login-button{
+margin-top: 50px;
+}
+.btn-link{
+position:absolute;
+right:0;
+background-color: #09476b;
+border-color: none;
+border-radius: 5px;
+margin-top:8px;
+margin-right:50px;
+color:white;
+}
+.btn-danger {
+	margin-bottom:0;
+    float: left;
+}
+.btn:hover {
+	transform:scale(1.05);
+	box-shadow:1px 1px 1px #888888;
+}
+.tab:hover {
+	transform:none;
+	box-shadow:none;
+}
+.edit {
+	font-family:'Arimo';
+}
+
+form-control{
+height: 50px;
+}
+
+btn btn-default{
+width: 80px;
+}
+
+.logout {
+	background-color:transparent;
+	color:#dedede;
+}
+.logout:hover {
+	transform:none;
+	box-shadow:none;
+	text-decoration:underline;
+}
+.navbar-inverse .btn-link {
+	color:#efefef;
+}
+
+.back
+{
+text-decoration: underline;
+	color: #002266;
+}
+.container {
+	margin:0;
+	margin-right:0;
+	width:100%;
+}
+
+/*Calendar Styles*/
+#events-calendar {
+	background-color:white;
+	margin-top:20px;
+}
+#eventdetails {
+	width:40%;
+	height:50%;
+	background-color:white;
+}
+#event-feed {
+	padding:2%;
+}
+.red {
+	background-color:#db1f1f;
+	color:black;
+}
+.orange {
+	background-color:#ed9111;
+	color:black;
+}
+.yellow {
+	background-color:#f0d211;
+	color:black;
+}
+.green {
+	background-color:#4fd12e;
+	color:black;
+}
+.blue {
+	background-color:#13aced;
+	color:black;
+}
+.other {
+	background-color:#d4d4d4;
+	color:black;
+}
+.black {
+	background-color:#000000;
+	color:white;
+}
+.on {
+	opacity:1;
+}
+.off {
+	opacity:.5;
+}
+#newEvent {
+	float:right;
+	margin-right:2%;
+}
+#all-toggle.btn:hover, #all-toggle.btn:active, #all-toggle.btn:focus {
+	color:white;
+}
+
+/*For the purposes of hiding and showing things*/
+a.hideme {
+	display:none;
+}
+a.outreach-event, .outreach-event {
+	background-color:#4fd12e;
+	color:black;
+}
+a.animalcare-event, .animalcare-event {
+	background-color:#13aced;
+	color:black;
+}
+a.vetteam-event, .vetteam-event {
+	background-color:#ed9111;
+	color:black;
+}
+a.transport-event, .transport-event {
+	background-color:#db1f1f;
+	color:black;
+}
+a.frontdesk-event, .frontdesk-event {
+	background-color:#f0d211;
+	color:black;
+}
+a.other-event, .other-event {
+	background-color:#d4d4d4;
+	color:black;
+}
+
+/*Footer styles*/
+footer {
+width:100%;
+margin:auto;
+height:180px;
+text-align:center;
+background-color: #09476b;
+padding-top:70px;
+color:white;
+}
+
+.w3-container,.w3-panel{padding: .6em 16px;}.w3-panel{margin-top:16px;margin-bottom:16px}
+
+.row.profpic {
+	border: 1px solid black;
+	background: #e8e8e8;
+}
+
+input[type=text].textbox,
+input[type=text].textbox:hover,
+input[type=text].textbox:focus,
+input[type=text].textbox:active
+{
+	border: 0;
+	outline: none;
+	outline-offset: 0;
+}
+
+
+input[type=text].header,
+input[type=text].header:hover,
+input[type=text].header:focus,
+input[type=text].header:active
+{
+	border: 0;
+	outline: none;
+	outline-offset: 0;
+	width: 120px;
+	resize: none;
+}
+
+.cboName
+{
+	border: 0;
+	outline: none;
+	outline-offset: 0;
+	width: 120px;
+	resize: none;
+}
+
+input[type=text].noBoarder,
+input[type=text].noBoarder:hover,
+input[type=text].noBoarder:focus,
+input[type=text].noBoarder:active
+{
+	width: 120px;
+	resize: none;
+}
+
+/*Profile Tabs and collapsable panels*/
+.team {
+	margin-bottom:15px;
+}
+.panel-heading {
+	background-color:#3a8787;
+	color:white;
+}
+.panel-heading a {
+	color:white;
+}
+.panel-heading:hover, .panel-heading:active, .panel-heading a:hover, .panel-heading a:active {
+	background-color:#9abf8b;	
+}
+.panel-heading a:visited, .panel-heading a:focus {
+	text-decoration:none;
+	color:white;
+}
+.panel-collapse {
+	background-color:white;
+}
+
+.profResult {
+	color: #09476b;
+	font-weight: bold;
+}
+.profResultTwo {
+	color: #09476b;
+}
+
+.profSize {
+	font-size: 16px;
+}
+#tab_stuff .row {
+	width:90%;
+	margin:auto;
+}
+#button1.active, #button2.active, #button3.active, #button4.active, #button5.active, #button6.active {
+	padding-right:12px;
+	padding-left:12px;
+	border-bottom:1px solid white;
+	margin-bottom:-1px;
+	background-color:white;
+}
+
+/*This styles the choose file button on the upload picture thing*/
+.label {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	  line-height: 1.42857143;
+	  text-align: center;
+	  white-space: nowrap;
+	  vertical-align: middle;
+	  -ms-touch-action: manipulation;
+		  touch-action: manipulation;
+	  cursor: pointer;
+	  -webkit-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+	  background-image: none;
+	  border-radius: 4px;
+	background-color: #9ABF8B;
+	border-color: none;
+	color:black;
+}
+.label:hover {
+	transform:scale(1.05);
+	box-shadow:1px 1px 1px #888888;
+}
+/*#fileToUpload {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}*/
+
+/*Keep the navbar from getting rounded edges*/
+@media (min-width:768px) {
+	.navbar {
+		border-radius:0px;
+	}
+}
+
+/*For medium screens*/
+@media (max-width:1000px) {
+	.thumbnail .glyphicon {
+		font-size:300%;
+		top:20%;
+		left:30%;
+	}
+	i.fa.fa-paw {
+		font-size:300%;
+		top:20%;
+		left:30%;
+	}
+}
+ 
+ /*For smaller screens*/
+@media (max-width:768px) {
+	.thumbnail {
+		display:inline-block;
+		padding:5%;
+		width:10%;
+		margin-bottom:25px;
+		height:auto;
+		background-color:transparent;
+		margin-right:4%;
+	}
+	.thumbnail .glyphicon {
+		font-size: 400%;
+		padding-top:10px;
+		color:black;
+	}
+	i.fa.fa-paw {
+		font-size:400%;
+		padding-top:10px;
+		color:black;
+	}
+	.caption p{
+		color:white;
+		display:none;
+	}
+	.row.new-nav {
+		background-color:white;
+	}
+	.ghost {
+		display:none;
+	}
+	
+	
+	#tab_stuff {
+		padding:5px;
+	}
+	.profSize .row, .profSize .col-sm-8 {
+		margin:0;
+		padding:0;
+	}
+	.nav-tabs li {
+		float:none;
+	}
+	#button1, #button2, #button3, #button4, #button5, #button6 {
+		width:100%;
+		border-radius:0px;
+	}
+	
+	
+	.search {
+		margin-top:30px;
+	}
+	
+	
+	.navbar-inverse .logout {
+		background-color:#222222;
+		display:block;
+		width:100%;
+		text-align:center;
+		margin:0;
+		z-index:1;
+		border-radius:0px;
+	}
+	
+	
+	#newEvent {
+		position:fixed;
+		top:20px;
+		right:20px;
+		z-index:2;
+	}
+}

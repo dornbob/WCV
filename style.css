@@ -1,0 +1,46 @@
+/* Put all of your custom CSS here */
+
+body{
+background-color: none;
+}
+
+footer{
+background-color: #F3B67A;
+}
+
+.h1{
+margin: 40px;
+margin-left: 0px;
+}
+
+.btn{
+margin-bottom: 50px;
+}
+
+.btn-default {
+background-color: #9ABF8B;
+border-color: none;
+margin-top: 70px;
+}
+
+.login-button{
+margin-top: 50px;
+}
+
+
+
+form-control{
+height: 50px;
+}
+
+btn btn-default{
+width: 80px;
+}
+
+.btn-link{
+margin-left: 1500px;
+background-color: #de9046;
+border-color: none;
+border-radius: 5px;
+}
+
